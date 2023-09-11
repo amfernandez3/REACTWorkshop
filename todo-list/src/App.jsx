@@ -47,6 +47,7 @@ export function App() {
 
   return (
     <Fragment>
+        <h1>TECNITIUM</h1>
       <h2>Lista de tareas pendientes:</h2>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input ref={todoTaskRef} type="text" placeholder="Nueva tarea" />
